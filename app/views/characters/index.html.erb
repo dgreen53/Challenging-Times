@@ -1,3 +1,6 @@
-<% @characters.each do |char| %>
+<h2>Game of Thrones characters index</h2>
+
+<%= render partial: 'character', collection: @characters %>
+<!-- <% @characters.each do |char| %>
   <p><%= char.name %> from <%=char.house %></p>
-<% end %>
+<% end %> -->
